@@ -13,7 +13,7 @@ To install the required packages, run the following command:
 conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch
 pip install timm==0.4.9
 ```
-![Demo Video](https://github.com/prafful-kumar/eccv24/blob/main/spread_attract_animation.gif)
+![Demo Video](https://github.com/prafful-kumar/enhancing_TE/blob/main/spread_attract_animation.gif)
 
 ## Data Preparation
 
