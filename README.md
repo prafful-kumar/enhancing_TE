@@ -6,12 +6,12 @@ Leveraging a transferability estimation metric facilitates the non-trivial chall
 
 Below is an illustration of our feature perturbation method for enhancing transferability estimation:
 
-![Teaser Figure](https://github.com/prafful-kumar/enhancing_TE/blob/main/Teaser_with_flowchart.pdf)
+![Teaser Figure](teaser.png)
 
 - **(a)** Flowchart outlining the transferability estimation enhancement process, with bold elements representing our **Spread** and **Attract** perturbation steps.
 - **(b)** Initial embeddings showing strong inter-class separation and compact intra-class clustering, typical in supervised models.
 - **(c)** Embeddings after applying our **Spread** and **Attract** perturbation method. Notice the increased intra-class variability and blurred inter-class boundaries.
-- **(d)** and **(e)** Actual correlation charts, depicting the model ranking predictions before and after perturbations. Each symbol represents a model, and the charts highlight the shift to higher correlation values after applying our perturbation method, demonstrating the improved accuracy in model ranking.
+- **(d)** and **(e)** Actual correlation charts on the pets dataset, depicting the model ranking predictions before and after perturbations. Each symbol represents a model, and the charts highlight the shift to higher correlation values after applying our perturbation method, demonstrating improved accuracy in model ranking.
 
 ## Requirements
 
