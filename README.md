@@ -1,5 +1,17 @@
-# enhancing_TE
+# Enhancing Transferability Estimation
 
+Leveraging a transferability estimation metric facilitates the non-trivial challenge of selecting the optimal model for the downstream task from a pool of pre-trained models. Most existing metrics primarily focus on identifying the statistical relationship between feature embeddings and the corresponding labels within the target dataset, but overlook crucial aspect of model robustness. This oversight may limit their effectiveness in accurately ranking pre-trained models. To address this limitation, we introduce a feature perturbation method that enhances the transferability estimation process by systematically altering the feature space. Our method includes a Spread operation that increases intra-class variability, adding complexity within classes, and an Attract operation that minimizes the distances between different classes, thereby blurring the class boundaries. Through extensive experimentation, we demonstrate the efficacy of our feature perturbation method in providing a more precise and robust estimation of model transferability. Notably, the existing LogMe method exhibited a significant improvement, showing a **28.84%** increase in performance after applying our feature perturbation method.
+
+## Visual Overview
+
+Below is an illustration of our feature perturbation method for enhancing transferability estimation:
+
+![Teaser Figure](https://github.com/prafful-kumar/enhancing_TE/blob/main/Teaser_with_flowchart.pdf)
+
+- **(a)** Flowchart outlining the transferability estimation enhancement process, with bold elements representing our **Spread** and **Attract** perturbation steps.
+- **(b)** Initial embeddings showing strong inter-class separation and compact intra-class clustering, typical in supervised models.
+- **(c)** Embeddings after applying our **Spread** and **Attract** perturbation method. Notice the increased intra-class variability and blurred inter-class boundaries.
+- **(d)** and **(e)** Actual correlation charts, depicting the model ranking predictions before and after perturbations. Each symbol represents a model, and the charts highlight the shift to higher correlation values after applying our perturbation method, demonstrating the improved accuracy in model ranking.
 
 ## Requirements
 
