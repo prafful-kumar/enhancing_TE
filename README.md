@@ -10,8 +10,10 @@ Below is an illustration of our feature perturbation method for enhancing transf
 
 - **(a)** Flowchart outlining the transferability estimation enhancement process, with bold elements representing our **Spread** and **Attract** perturbation steps.
 - **(b)** Initial embeddings showing strong inter-class separation and compact intra-class clustering, typical in supervised models.
-- **(c)** Embeddings after applying our **Spread** and **Attract** perturbation method. Notice the increased intra-class variability and blurred inter-class boundaries.
+- **(c)** Embeddings after applying our **Spread** and **Attract** perturbation method. Notice the increased intra-class variability and blurred inter-class boundaries (shown in the animation below).
 - **(d)** and **(e)** Actual correlation charts on the pets dataset, depicting the model ranking predictions before and after perturbations. Each symbol represents a model, and the charts highlight the shift to higher correlation values after applying our perturbation method, demonstrating improved accuracy in model ranking.
+
+![Demo Video](https://github.com/prafful-kumar/enhancing_TE/blob/main/spread_attract_animation.gif)
 
 ## Requirements
 
@@ -25,7 +27,7 @@ To install the required packages, run the following command:
 conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch
 pip install timm==0.4.9
 ```
-![Demo Video](https://github.com/prafful-kumar/enhancing_TE/blob/main/spread_attract_animation.gif)
+
 
 ## Data Preparation
 
