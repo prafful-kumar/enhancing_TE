@@ -65,4 +65,4 @@ python tw_group1.py --me SA --type NCTI -d sun397
 
 ### Acknowledgement:
 
-This code repository is developed based on SFDA.
+This code repository is developed based on SFDA(https://github.com/TencentARC/SFDA.git).
